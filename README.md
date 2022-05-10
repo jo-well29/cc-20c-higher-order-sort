@@ -30,36 +30,31 @@ const alumni = [
 ```
 
 
-1. Write a function named `ninetiesBabies` that takes an array of objects and returns an array of only the objects where the age property is larger than 22.
+1. Write a function named `orderedAlumni` that takes an array of objects and sorts the objects by the age of the alumni from oldest to youngest. 
     
     ```jsx
-    ninetiesBabies(alumni) // returns [
-    { name: 'Jarrit', job: 'TPT', language: 'JavaScript', age: 23 },
-    { name:'Stephanie', job:'JPMorgan',language:'JavaScript', age:24 },
+    orderedAlumni(alumni) // returns [
+    { name: 'Devonte', job: 'WW', language: 'JavaScript', age: 23 },
     { name: 'Shemar', job: 'SquareSpace', language: 'JavaScript', age: 23 },
-    { name:'Enmanuel', job:'Asana',language:'JavaScript', age:23 },
-    ...
+    { name: 'Jarrit', job: 'TPT', language: 'JavaScript', age: 22 },
+    { name: 'Stephanie', job: 'JPMorgan', language: 'JavaScript', age: 21 },
+    { name: 'Enmanuel', job: 'Asana', language: 'JavaScript', age: 21 },
+    { name: 'Cielo', job: 'NYT', language: 'JavaScript', age: 21 }
     ]
     ```
 ---
 **Bonus Question**
 
-2. Write a function named `associateInstructors` that takes an array of objects and returns an array of only the objects where the job property is equal to "Marcy Lab School". 
+2. Write a function named `alphabeticalOrder` that takes an array of objects and sorts the obkects by the name of the alumni in alphabetical order.
     
     ```jsx
-    associateInstructors(alumni) //returns
-    [
-     {
-        name: 'Carmen',
-        job: 'Marcy Lab School',
-        language: 'JavaScript',
-        age: 21
-     },
-     {
-        name: 'Itzel',
-        job: 'Marcy Lab School',
-        language: 'JavaScript',
-        age: 22
-     }
-    ]
+    alphabeticalOrder(alumni)//returns [
+     { name: 'Carmen', job: 'Marcy Lab School', language: 'JavaScript', age: 21 },
+     { name: 'Cielo', job: 'NYT', language: 'JavaScript', age: 21 },
+     { name: 'Devonte', job: 'WW', language: 'JavaScript', age: 23 },
+     { name: 'Enmanuel', job: 'Asana', language: 'JavaScript', age: 21 },
+     { name: 'Itzel', job: 'Marcy Lab School', language: 'JavaScript', age: 22 },
+     { name: 'Jarrit', job: 'TPT', language: 'JavaScript', age: 22 },
+     ...
+     ]
     ```
